@@ -1,7 +1,6 @@
 const assert = require('assert');
-const callerPath = require('caller-path');
-
 const fs = require('fs');
+
 const { calculateReport, calculateReport2 } = require('./report');
 
 const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf-8');
