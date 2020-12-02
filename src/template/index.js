@@ -1,7 +1,3 @@
-import { test, readInput } from '../utils/index';
-
-const prepareInput = (rawInput: string) => rawInput;
-
 const input = prepareInput(readInput());
 
 const goA = (input) => {
