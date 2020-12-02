@@ -14,7 +14,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## Days
 
 - [Day 1: Report Repair](src/day-01/)
-- [Day 2: TBD](src/day-02/)
+- [Day 2: Password Philosophy](src/day-02/)
 - [Day 3: TBD](src/day-03/)
 - [Day 4: TBD](src/day-04/)
 - [Day 5: TBD](src/day-05/)

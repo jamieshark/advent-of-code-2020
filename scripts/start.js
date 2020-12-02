@@ -1,15 +1,39 @@
-const { spawn } = require('child_process');
-const { readdirSync } = require('fs');
-const { cp } = require('shelljs');
-
+const { readdirSync, writeFile, copyFile, mkdir } = require('fs');
+const testTemplate = require('../src/template/test.template.js');
 const day = process.argv[2];
 const days = readdirSync('./src');
 
-if (!days.includes(day)) {
-  console.log(`Creating file structure for ${day}...`);
-  cp('-r', 'src/template', `src/${day}`);
+if (!day) {
+  console.error('Please enter a day number.');
 }
 
-spawn('nodemon', ['-x', 'ts-node', `src/${day}/index.ts`], {
-  stdio: 'inherit',
-});
+if (!days.includes(day)) {
+  console.log(`Creating new directory for ${day}...`);
+
+  mkdir(`src/${day}`, (err) => {
+    if (err) {
+      console.warn(err);
+    }
+    copyFile('src/template/index.js', `src/${day}/index.js`, (err) => {
+      if (err) {
+        console.warn(err);
+      }
+    });
+
+    console.log('Creating blank input file.');
+    writeFile(`src/${day}/input.txt`, '', (err) => {
+      if (err) {
+        console.warn(err);
+      }
+      console.log('Created blank input file.');
+    });
+
+    console.log('Creating test file.');
+    writeFile(`src/${day}/${day}.test.js`, testTemplate(day), (err) => {
+      if (err) {
+        console.warn(err);
+      }
+      console.log('Created test file. All set!');
+    });
+  });
+}

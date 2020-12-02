@@ -1,7 +1,7 @@
 const assert = require('assert');
 const fs = require('fs');
 
-const { calculateReport, calculateReport2 } = require('./report');
+const { calculateReport, calculateReport2 } = require('.');
 
 const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf-8');
 
@@ -36,7 +36,7 @@ describe('Day 1: Report Repair', () => {
     });
 
     it('should solve the problem', () => {
-      assert.strictEqual(calculateReport2(input), 713184);
+      assert.strictEqual(calculateReport2(input), 261244452);
     });
   });
 });

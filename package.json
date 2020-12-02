@@ -6,8 +6,8 @@
   "author": "jamieshark <jchung@atlassian.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./scripts/start.js",
-    "test": "mocha src/day-*/**/test.js",
+    "start": "node ./scripts/start.js",
+    "test": "mocha src/day-*/**/*.test.js",
     "lint": "eslint ."
   },
   "repository": {
