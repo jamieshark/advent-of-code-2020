@@ -13,8 +13,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Days
 
-- [Day 1: Report Repair](src/day-01/)
-- [Day 2: Password Philosophy](src/day-02/)
+- Day 1: Report Repair [![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/blue)](src/day-01)
+- Day 2: Password Philosophy [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-02)
 - [Day 3: TBD](src/day-03/)
 - [Day 4: TBD](src/day-04/)
 - [Day 5: TBD](src/day-05/)
