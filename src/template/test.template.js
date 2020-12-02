@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const { funcA } = require('.');
 
-const input = fs.readFileSync(\`\$\{__dirname\}/input.txt\`, 'utf-8');
+const input = fs.readFileSync(\`$\{__dirname}/input.txt\`, 'utf-8');
 
 describe('${day}: TITLE', () => {
   describe('Part One', () => {

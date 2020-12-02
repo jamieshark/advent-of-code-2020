@@ -4,9 +4,7 @@ module.exports = {
     node: true,
     mocha: true,
   },
-  plugins: ['@typescript-eslint'],
   extends: 'eslint:recommended',
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
   },
