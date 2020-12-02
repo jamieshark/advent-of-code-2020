@@ -41,7 +41,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Running Tests
 
-Each day contains its own set of tests. To run them type `npm test`.
+Each directory for the day's challenge has a `day.test.js` file. Run `yarn test` to run them all.
 
 ## Previous Years
 - [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jamieshark/advent-of-code-2019/master/.github/badges/completion.json&label=2019)](https://github.com/jamieshark/advent-of-code-2019)
