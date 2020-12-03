@@ -28,6 +28,22 @@ if (!days.includes(day)) {
       console.log('Created blank input file.');
     });
 
+    console.log('Creating blank example file.');
+    writeFile(`src/${day}/example.txt`, '', (err) => {
+      if (err) {
+        console.warn(err);
+      }
+      console.log('Created blank example file.');
+    });
+
+    console.log('Creating blank README file.');
+    writeFile(`src/${day}/README.md`, '', (err) => {
+      if (err) {
+        console.warn(err);
+      }
+      console.log('Created blank README file.');
+    });
+
     console.log('Creating test file.');
     writeFile(`src/${day}/${day}.test.js`, testTemplate(day), (err) => {
       if (err) {

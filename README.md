@@ -11,11 +11,19 @@ To save your vacation, you need to get all **fifty stars** by December 25th.
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants **one star**. Good luck!
 
+
+## Quickstart
+
+Run `yarn start [day]` to create a new directory for the day. "day" should be formatted like "day-03," "day-10," and so on.
+
+Then run `yarn test` to run the tests.
+
+Once you've solved the problem, update this README with the problem link and info. You can also paste the results here.
 ## Days
 
 - Day 1: Report Repair [![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/blue)](src/day-01)
 - Day 2: Password Philosophy [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-02)
-- [Day 3: TBD](src/day-03/)
+- Day 3: Toboggan Trajectory [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-03)
 - [Day 4: TBD](src/day-04/)
 - [Day 5: TBD](src/day-05/)
 - [Day 6: TBD](src/day-06/)
@@ -58,6 +66,15 @@ Part 1
 Part 2
   Solution: 313
   Time: 1.287ms
+
+day-03
+------
+Part 1
+  Solution: 268
+  Time: 0.07ms
+Part 2
+  Solution: 3093068400
+  Time: 0.217ms
 ```
 ## Running Tests
 
