@@ -14,7 +14,9 @@ describe('${day}: TITLE', () => {
     });
 
     it('should solve the problem', () => {
+      console.time('time');
       assert.strictEqual(funcA(input), undefined);
+      console.timeEnd('time');
     });
   });
 });

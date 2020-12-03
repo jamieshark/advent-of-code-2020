@@ -39,6 +39,26 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 24: TBD](src/day-24/)
 - [Day 25: TBD](src/day-25/)
 
+## Results
+```
+day-01
+------
+Part 1
+  Solution: 713184
+  Time: 0.532ms
+Part 2
+  Solution: 261244452
+  Time: 3.954ms
+
+day-02
+------
+Part 1
+  Solution: 500
+  Time: 1.599ms
+Part 2
+  Solution: 313
+  Time: 1.287ms
+```
 ## Running Tests
 
 Each directory for the day's challenge has a `day.test.js` file. Run `yarn test` to run them all.

@@ -19,7 +19,9 @@ describe('Day 1: Report Repair', () => {
     });
 
     it('should solve the problem', () => {
+      console.time('time');
       assert.strictEqual(calculateReport(input), 713184);
+      console.timeEnd('time');
     });
   });
 
@@ -36,7 +38,9 @@ describe('Day 1: Report Repair', () => {
     });
 
     it('should solve the problem', () => {
+      console.time('time');
       assert.strictEqual(calculateReport2(input), 261244452);
+      console.timeEnd('time');
     });
   });
 });

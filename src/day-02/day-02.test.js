@@ -13,7 +13,9 @@ describe('day-02: Password Philosophy', () => {
     });
 
     it('should solve the problem', () => {
+      console.time('time');
       assert.strictEqual(passwordCheck(input), 500);
+      console.timeEnd('time');
     });
   });
 
@@ -23,7 +25,9 @@ describe('day-02: Password Philosophy', () => {
     });
 
     it('should solve the problem', () => {
+      console.time('time');
       assert.strictEqual(passwordCheckPos(input), 313);
+      console.timeEnd('time');
     });
   });
 });
