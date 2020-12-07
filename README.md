@@ -25,8 +25,8 @@ Once you've solved the problem, update this README with the problem link and inf
 - Day 2: Password Philosophy [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-02)
 - Day 3: Toboggan Trajectory [![Day](https://badgen.net/badge/03/%E2%98%85%E2%98%85/blue)](src/day-03)
 - Day 4: Passport Processing [![Day](https://badgen.net/badge/04/%E2%98%85%E2%98%85/blue)](src/day-04)
-- [Day 5: TBD](src/day-05/)
-- [Day 6: TBD](src/day-06/)
+- Day 5: Binary Boarding [![Day](https://badgen.net/badge/05/%E2%98%85%E2%98%85/blue)](src/day-05)
+- Day 6: Custom Customs [![Day](https://badgen.net/badge/06/%E2%98%85%E2%98%85/blue)](src/day-06)
 - [Day 7: TBD](src/day-07/)
 - [Day 8: TBD](src/day-08/)
 - [Day 9: TBD](src/day-09/)
@@ -93,6 +93,15 @@ Part 1
 Part 2
   Solution: 747
   Time: 1.343ms
+
+day-06
+------
+Part 1
+  Solution: 6310
+  Time: 1.905ms
+Part 2
+  Solution: 3193
+  Time: 9.768ms
 ```
 ## Running Tests
 
