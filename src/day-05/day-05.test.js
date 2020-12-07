@@ -6,27 +6,27 @@ const { partOne, partTwo } = require('.');
 const example = fs.readFileSync(`${__dirname}/example.txt`, 'utf-8');
 const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf-8');
 
-describe('day-04: Passport Processing', () => {
+describe('day-05: Binary Boarding', () => {
   describe('Part One', () => {
     it('should solve the example', () => {
-      assert.strictEqual(partOne(example), 2);
+      assert.strictEqual(partOne(example), 820);
     });
 
     it('should solve the problem', () => {
       console.time('time');
-      assert.strictEqual(partOne(input), 256);
+      assert.strictEqual(partOne(input), 922);
       console.timeEnd('time');
     });
   });
 
   describe('Part Two', () => {
     it('should solve the example', () => {
-      assert.strictEqual(partTwo(example), 2);
+      assert.strictEqual(partTwo(example), undefined);
     });
 
     it('should solve the problem', () => {
       console.time('time');
-      assert.strictEqual(partTwo(input), 198);
+      assert.strictEqual(partTwo(input), 747);
       console.timeEnd('time');
     });
   });

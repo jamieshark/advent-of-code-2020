@@ -84,6 +84,15 @@ Part 1
 Part 2
   Solution: 198
   Time: 5.824ms
+
+day-05
+------
+Part 1
+  Solution: 922
+  Time: 1.488ms
+Part 2
+  Solution: 747
+  Time: 1.343ms
 ```
 ## Running Tests
 
