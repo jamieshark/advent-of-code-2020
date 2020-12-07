@@ -23,8 +23,8 @@ Once you've solved the problem, update this README with the problem link and inf
 
 - Day 1: Report Repair [![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/blue)](src/day-01)
 - Day 2: Password Philosophy [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-02)
-- Day 3: Toboggan Trajectory [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/blue)](src/day-03)
-- [Day 4: TBD](src/day-04/)
+- Day 3: Toboggan Trajectory [![Day](https://badgen.net/badge/03/%E2%98%85%E2%98%85/blue)](src/day-03)
+- Day 4: Passport Processing [![Day](https://badgen.net/badge/04/%E2%98%85%E2%98%85/blue)](src/day-04)
 - [Day 5: TBD](src/day-05/)
 - [Day 6: TBD](src/day-06/)
 - [Day 7: TBD](src/day-07/)
@@ -75,6 +75,15 @@ Part 1
 Part 2
   Solution: 3093068400
   Time: 0.217ms
+
+day-04
+------
+Part 1
+  Solution: 256
+  Time: 4.008ms
+Part 2
+  Solution: 198
+  Time: 5.824ms
 ```
 ## Running Tests
 

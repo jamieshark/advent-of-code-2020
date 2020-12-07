@@ -15,6 +15,7 @@
     "url": "https://github.com/jamieshark/advent-of-code-2020.git"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.14.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6"
